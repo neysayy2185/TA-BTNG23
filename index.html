@@ -1,0 +1,664 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Restaurant Landing Page</title>
+
+    <!-- CSS Bootstrap -->
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN"
+      crossorigin="anonymous"
+    />
+
+    <!-- CSS External -->
+    <link rel="stylesheet" href="./assets/styles/styles.css" />
+
+    <!-- Link Google Font -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&display=swap"
+      rel="stylesheet"
+    />
+
+    <!-- Link Font Awesome -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css"
+      integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+  </head>
+  <body>
+
+
+    <!-- Navbar Start -->
+    <nav class="navbar navbar-expand-lg shadow-sm p-3 fixed-top bg-white">
+      <div class="container">
+        <a class="navbar-brand fw-bold fs-3" href="#"
+          >ELATION <span class="text-danger">RESTO</span></a
+        >
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#navbarSupportedContent"
+          aria-controls="navbarSupportedContent"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+            <li class="nav-item">
+              <a class="nav-link text-dark fs-5" href="#home">Home</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link text-dark fs-5 m-0 ms-lg-3" href="#about">About</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link text-dark fs-5 m-0 ms-lg-3" href="#categories">Categories</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link text-dark fs-5 m-0 ms-lg-3" href="#menu">Menu</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link text-dark fs-5 m-0 ms-lg-3" href="#testimony">Testimonies</a>
+          </li>
+            <li class="nav-item">
+                <a class="nav-link text-dark fs-5 m-0 ms-lg-3" href="#contact">Contact</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+    <!-- Navbar End -->
+
+
+    <!-- Hero Start -->
+    <section id="home" class="bg-light">
+        <div class="container">
+            <div class="d-flex flex-column justify-content-center vh-100
+            align-items-center">
+                <h1 class="fw-bold text-center">
+                  HI THERE!
+                </h1>
+                <h4 class="fs-3 my-2">Lets Get Started</h4>
+                <a href="#about" class="btn btn-outline-dark fs-4 fw-bold mt-2">Go Now!</a>
+            </div>
+        </div>
+    </section>
+    <!-- Hero End -->
+
+
+    <!-- About Start -->
+    <section id="about">
+        <div class="container">
+            <div class="title text-center mb-4 mt-5">
+                <h1 class="fw-bold">About Us</h1>
+                <p class="text-secondary">
+                  Taste the deliciousness, savor the sensation!
+                </p>
+            </div>
+            <div class="row gy-3">
+                <div class="col-12 col-lg-6">
+                    <img src="https://img.freepik.com/premium-photo/fast-food-restaurant-with-modern-minimalist-interior-sleek-furniture_124507-140289.jpg" alt="" class="img-fluid border border-dark rounded" />
+                </div>
+                <div class="col-12 col-lg-6">
+                    <p style="text-align: justify;">
+                      Our restaurant has a concept of providing modern food, provides a variety of western 
+                      food, and also provides a variety of drinks that will make you happy.
+                      Complete facilities with minimalist and modern interiors
+                      guaranteed to make you comfortable!
+                    </p>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- About End -->
+
+
+    <!-- Categories Start -->
+    <section id="categories">
+        <div class="container">
+            <div class="title text-center mb-4 mt-5">
+                <h1 class="fw-bold">Our Food Categories</h1>
+                <p class="text-secondary">
+                  some of the food categories we have
+                </p>
+            </div>
+            <div class="row gap-4 gy-3 justify-content-center">
+                <div class="col-12 col-md-5 col-lg-3">
+                    <div class="box d-flex border border-dark rounded p-3 gap-3 align-items-center">
+                        <div class="logo border border-dark p-2 rounded bg-light">
+                            <i class="fa-solid fa-bread-slice fs-2"></i>
+                        </div>
+                        <span class="fs-5">Appetizer</span>
+                    </div>
+                </div>
+                
+                <div class="col-12 col-md-5 col-lg-3">
+                    <div class="box d-flex border border-dark rounded p-3 gap-3 align-items-center">
+                        <div class="logo border border-dark p-2 rounded bg-light">
+                            <i class="fa-solid fa-bowl-food fs-2"></i>
+                        </div>
+                        <span class="fs-5">Main Course</span>
+                    </div>
+                </div>
+
+                <div class="col-12 col-md-5 col-lg-3">
+                    <div class="box d-flex border border-dark rounded p-3 gap-3 align-items-center">
+                        <div class="logo border border-dark p-2 rounded bg-light">
+                            <i class="fa-solid fa-ice-cream fs-2"></i>
+                        </div>
+                        <span class="fs-5">Dessert</span>
+                    </div>
+                </div>
+
+                <div class="col-12 col-md-5 col-lg-3">
+                    <div class="box d-flex border border-dark rounded p-3 gap-3 align-items-center">
+                        <div class="logo border border-dark p-2 rounded bg-light">
+                            <i class="fa-solid fa-wine-glass fs-2"></i>
+                        </div>
+                        <span class="fs-5">Beverages</span>
+                    </div>
+                </div>
+                
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- Categories End -->
+
+
+    <!-- Menu Start -->
+    <section id="menu">
+        <div class="container">
+ 
+          <!-- Appetizer -->
+            <div class="title text-center mb-4 mt-5">
+                <h1 class="fw-bold">Appetizer</h1>
+                <p class="text-secondary">
+                  Our appetizers served in an attractive presentation will impress you from the first glance.
+                </p>
+            </div>
+
+            <div class="row gy-3 justify-content-center">
+                <div class="col-12 col-md-4 col-lg-3">
+                    <div class="card">
+                        <img src="./assets/img_ta/fruit-salad-9e9687f (1).jpg" class="card-img-top" />
+                        <div class="card-body text-center">
+                          <h5 class="card-title fw-bold">Fruit Salad</h5>
+                          <p class="card-text text-secondary">
+                            Feel free to try our fruit salads that are sure to satisfy your taste buds and provide great health benefits.
+                          </p>
+                        </div>
+                      </div>
+                </div>
+
+                <div class="col-12 col-md-4 col-lg-3">
+                    <div class="card">
+                        <img src="./assets/img_ta/raw-veggie-chopped-salad-featured (1).jpg" class="card-img-top" />
+                        <div class="card-body text-center">
+                          <h5 class="card-title fw-bold">Vegetable Salad</h5>
+                          <p class="card-text text-secondary">
+                            Vegetable salads are a perfect option for those looking to maintain a healthy diet or lose weight, as they are low in calories and high in fiber.
+                          </p>
+                        </div>
+                      </div>
+                </div>
+
+                <div class="col-12 col-md-4 col-lg-3">
+                    <div class="card">
+                        <img src="./assets/img_ta/Antique-Potato-Croquettes-Recipe-VLifestyle.org_-scaled (1).jpg" class="card-img-top" />
+                        <div class="card-body text-center">
+                          <h5 class="card-title fw-bold">Croquette</h5>
+                          <p class="card-text text-secondary">
+                            Get our croquettes made from high-quality ingredients and processed with the right techniques to produce the perfect flavor.
+                          </p>
+                        </div>
+                      </div>
+                </div>
+
+                <div class="col-12 col-md-4 col-lg-3">
+                    <div class="card">
+                        <img src="./assets/img_ta/Texas-Toast_IG-1 (1).jpg" class="card-img-top" />
+                        <div class="card-body text-center">
+                          <h5 class="card-title fw-bold">Bread Toast</h5>
+                          <p class="card-text text-secondary">
+                            With a wide selection of toppings such as cheese, eggs, or meat, toast can be a filling and nutritious meal.
+                          </p>
+                        </div>
+                      </div>
+                </div>
+
+                <!-- Main Course -->
+                <div class="title text-center mb-4 mt-5">
+                  <h1 class="fw-bold">Main Course</h1>
+                  <p class="text-secondary">
+                    Don't miss the chance to try our main dishes, which are served with enough portions to fill your stomach.
+                  </p>
+              </div>
+  
+              <div class="row gy-3 justify-content-center">
+                  <div class="col-12 col-md-4 col-lg-3">
+                      <div class="card">
+                          <img src="./assets/img_ta/1568222255998.jpg" class="card-img-top" />
+                          <div class="card-body text-center">
+                            <h5 class="card-title fw-bold">Fried Chicken</h5>
+                            <p class="card-text text-secondary">
+                              Savor the deliciousness of our fried chicken that is crispy on the outside and juicy on the inside, perfect for a snack or main course
+                            </p>
+                          </div>
+                        </div>
+                  </div>
+  
+                  <div class="col-12 col-md-4 col-lg-3">
+                      <div class="card">
+                          <img src="./assets/img_ta/201004-r-xl-moms-meatloaf-49147d9fd5c242e1b2f51a2b51434302.jpg" class="card-img-top" />
+                          <div class="card-body text-center">
+                            <h5 class="card-title fw-bold">Meatloaf</h5>
+                            <p class="card-text text-secondary">
+                              Get our meatloaf that is guaranteed delicious and hygienically processed to maintain its quality and safety.
+                            </p>
+                          </div>
+                        </div>
+                  </div>
+  
+                  <div class="col-12 col-md-4 col-lg-3">
+                      <div class="card">
+                          <img src="./assets/img_ta/air-fryer-hot-wings-19-500x500.jpg" class="card-img-top" />
+                          <div class="card-body text-center">
+                            <h5 class="card-title fw-bold">Chicken Wings</h5>
+                            <p class="card-text text-secondary">
+                              There's nothing more satisfying than enjoying delicious and nutritious chicken wings. Order now and enjoy the savory sensation!
+                            </p>
+                          </div>
+                        </div>
+                  </div>
+  
+                  <div class="col-12 col-md-4 col-lg-3">
+                      <div class="card">
+                          <img src="./assets/img_ta/238691-Simple-Macaroni-And-Cheese-mfs_008-4x3-6ed91ba87a1344558aacc0f9ef0f4b41 (1).jpg" class="card-img-top" />
+                          <div class="card-body text-center">
+                            <h5 class="card-title fw-bold">Mac and Cheese</h5>
+                            <p class="card-text text-secondary">
+                              Looking for a delicious and filling meal? Try our mac and cheese which is rich in cheese and very tasty!
+                            </p>
+                          </div>
+                        </div>
+                  </div>
+
+                  <div class="col-12 col-md-4 col-lg-3">
+                    <div class="card">
+                        <img src="./assets/img_ta/Beef-Tacos-768x575 (1).jpg" class="card-img-top" />
+                        <div class="card-body text-center">
+                          <h5 class="card-title fw-bold">Taco</h5>
+                          <p class="card-text text-secondary">
+                            There's nothing more satisfying than enjoying a delicious and fresh taco. Enjoy the sensation of deliciousness!
+                          </p>
+                        </div>
+                      </div>
+                </div>
+
+                <div class="col-12 col-md-4 col-lg-3">
+                  <div class="card">
+                      <img src="./assets/img_ta/Frenchs_Cheeseburger_Burrito (1).jpg" class="card-img-top" />
+                      <div class="card-body text-center">
+                        <h5 class="card-title fw-bold">Burrito</h5>
+                        <p class="card-text text-secondary">
+                          With a variety of fillings to choose from, such as beef, chicken, or vegetables, as well as add-ons like cheese, sour cream, and guacamole, burritos can be customized to suit any taste. 
+                        </p>
+                      </div>
+                    </div>
+              </div>
+                  
+                  <!-- Dessert -->
+                  <div class="title text-center mb-4 mt-5">
+                    <h1 class="fw-bold">Dessert</h1>
+                    <p class="text-secondary">
+                      Enjoy our sweet and delicious desserts, which will satisfy your taste buds and make you want to come back for more!
+                    </p>
+                </div>
+    
+                <div class="row gy-3 justify-content-center">
+                    <div class="col-12 col-md-4 col-lg-3">
+                        <div class="card">
+                            <img src="https://sugarspunrun.com/wp-content/uploads/2019/01/Best-Cheesecake-Recipe-2-1-of-1-4-500x500.jpg" class="card-img-top" />
+                            <div class="card-body text-center">
+                              <h5 class="card-title fw-bold">Cheesecake</h5>
+                              <p class="card-text text-secondary">
+                                If you've never tried cheesecake before, now is a good time to do so. You will definitely fall in love with this delicious and appetizing dessert.
+                              </p>
+                            </div>
+                          </div>
+                    </div>
+    
+                    <div class="col-12 col-md-4 col-lg-3">
+                        <div class="card">
+                            <img src="https://images.squarespace-cdn.com/content/v1/5f0a5c92a10bd44f6945fa95/1632343191079-XWTBFX84HQ7HJD4OHLD9/sprinkle_cie_cream_bowl_web.jpg?format=1000w" class="card-img-top" />
+                            <div class="card-body text-center">
+                              <h5 class="card-title fw-bold">Ice Cream</h5>
+                              <p class="card-text text-secondary">
+                                Ice cream is a delicious and refreshing dessert. With a wide selection of flavors, such as chocolate, vanilla, strawberry, and many more, ice cream can be customized to suit your individual tastes.
+                              </p>
+                            </div>
+                          </div>
+                    </div>
+    
+                    <div class="col-12 col-md-4 col-lg-3">
+                        <div class="card">
+                            <img src="https://joyfoodsunshine.com/wp-content/uploads/2016/01/best-chocolate-chip-cookies-recipe-ever-no-chilling-1.jpg" class="card-img-top" />
+                            <div class="card-body text-center">
+                              <h5 class="card-title fw-bold">Chocochip Cookie</h5>
+                              <p class="card-text text-secondary">
+                                The Half Baked Choco Chip Cookie from Gracie Baked is a soft, doughy, and fudgy chocolate chip cookie topped with sea salt. This cookie is perfect for those who love a rich and decadent dessert.
+                              </p>
+                            </div>
+                          </div>
+                    </div>
+    
+                    <div class="col-12 col-md-4 col-lg-3">
+                        <div class="card">
+                            <img src="https://www.allrecipes.com/thmb/FE0PiuuR0Uh06uVh1c2AsKjRGbc=/1500x0/filters:no_upscale():max_bytes(150000):strip_icc()/21014-Good-old-Fashioned-Pancakes-mfs_002-0e249c95678f446291ebc9408ae64c05.jpg" class="card-img-top" />
+                            <div class="card-body text-center">
+                              <h5 class="card-title fw-bold">Pancake</h5>
+                              <p class="card-text text-secondary">
+                                Get your favorite pancakes with a wide selection of appetizing toppings, perfect for enjoying with family and friends.
+                              </p>
+                            </div>
+                          </div>
+                    </div>
+
+                  <!-- Beverages -->
+                    <div class="title text-center mb-4 mt-5">
+                      <h1 class="fw-bold">Beverages</h1>
+                      <p class="text-secondary">
+                        This drinks are produced with high-quality ingredients.
+                      </p>
+                  </div>
+      
+                  <div class="row gy-3 justify-content-center">
+                      <div class="col-12 col-md-4 col-lg-3">
+                          <div class="card">
+                              <img src="https://res.cloudinary.com/frankztreat/image/upload/v1501653216/28_ebb3na.jpg" class="card-img-top" />
+                              <div class="card-body text-center">
+                                <h5 class="card-title fw-bold">Orange Juice</h5>
+                                <p class="card-text text-secondary">
+                                  Orange juice is a delicious and refreshing drink, perfect to enjoy in summer or when the weather is hot.
+                                </p>
+                              </div>
+                            </div>
+                      </div>
+      
+                      <div class="col-12 col-md-4 col-lg-3">
+                          <div class="card">
+                              <img src="https://preppykitchen.com/wp-content/uploads/2021/04/Milkshake-Recipe-Card.jpg" class="card-img-top" />
+                              <div class="card-body text-center">
+                                <h5 class="card-title fw-bold">Milkshake</h5>
+                                <p class="card-text text-secondary">
+                                  Get your favorite milkshake with a wide selection of flavors, such as chocolate, strawberry, or vanilla
+                                </p>
+                              </div>
+                            </div>
+                      </div>
+      
+                      <div class="col-12 col-md-4 col-lg-3">
+                          <div class="card">
+                              <img src="https://shop.litercoffee.com/wp-content/uploads/2022/10/1.americano.webp" class="card-img-top" />
+                              <div class="card-body text-center">
+                                <h5 class="card-title fw-bold">Iced Coffee</h5>
+                                <p class="card-text text-secondary">
+                                  Get your favorite iced coffee with a wide selection of flavors, such as vanilla, caramel, or hazelnut.
+                                </p>
+                              </div>
+                            </div>
+                      </div>
+      
+                      <div class="col-12 col-md-4 col-lg-3">
+                          <div class="card">
+                              <img src="https://static.toiimg.com/thumb/85190794.cms?imgsize=142161&width=800&height=800" class="card-img-top" />
+                              <div class="card-body text-center">
+                                <h5 class="card-title fw-bold">Float</h5>
+                                <p class="card-text text-secondary">
+                                  Float drinks are not just an ordinary beverages. They are a perfect combination of rich flavors and creamy textures that will leave you craving for more.
+                                </p>
+                              </div>
+                            </div>
+                      </div>
+      
+
+                
+            </div>
+        </div>
+    </section>
+    <!-- Menu End -->
+
+
+    <!-- Testimoni Start -->
+    <section id="testimony" class="bg-light py-5 my-5">
+        <div class="container">
+            <div class="title text-center mb-4 mt-5">
+                <h1 class="fw-bold">Testimonies</h1>
+                <p class="text-secondary">
+                  Some reviews from our customers
+                </p>
+            </div>
+            <div id="carouselExample" class="carousel slide carousel-dark" data-bs-ride="carousel">
+                <div class="carousel-inner">
+                  <div class="carousel-item active">
+                    <div class="border border-dark p-5 rounded w-75 mx-auto">
+                        <div class="d-flex flex-column flex-lg-row gap-3 align-items-start">
+                            <div class="fs-1 border border-dark p-3 py-3 rounded-circle">
+                            👩
+                            </div>
+                            <div class="d-flex flex-column">
+                                <div class="d-flex align-items-center gap-1">
+                                    <span class="fw-bold fs-4">Alia</span>
+                                    <span class="text-secondary">@wavesbubble</span>
+                                </div>
+                                <p>I love the place, comfortable and the food is amazing!
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                  </div>
+
+                  <div class="carousel-item">
+                    <div class="border border-dark p-5 rounded w-75 mx-auto">
+                        <div class="d-flex flex-column flex-lg-row gap-3 align-items-start">
+                            <div class="fs-1 border border-dark p-3 py-3 rounded-circle">
+                            👩‍🦱
+                            </div>
+                            <div class="d-flex flex-column">
+                                <div class="d-flex align-items-center gap-1">
+                                    <span class="fw-bold fs-4">Bella</span>
+                                    <span class="text-secondary">@fancybella</span>
+                                </div>
+                                <p>Great dish! It’s finger licking good.
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                  </div>
+
+                  <div class="carousel-item">
+                    <div class="border border-dark p-5 rounded w-75 mx-auto">
+                        <div class="d-flex flex-column flex-lg-row gap-3 align-items-start">
+                            <div class="fs-1 border border-dark p-3 py-3 rounded-circle">
+                            👱‍♂️
+                            </div>
+                            <div class="d-flex flex-column">
+                                <div class="d-flex align-items-center gap-1">
+                                    <span class="fw-bold fs-4">Julian</span>
+                                    <span class="text-secondary">@upbeat.julian</span>
+                                </div>
+                                <p>Big thumbs up for the cook who made this dish!
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                  </div>
+
+                  <div class="carousel-item">
+                    <div class="border border-dark p-5 rounded w-75 mx-auto">
+                        <div class="d-flex flex-column flex-lg-row gap-3 align-items-start">
+                            <div class="fs-1 border border-dark p-3 py-3 rounded-circle">
+                            👨‍🦱
+                            </div>
+                            <div class="d-flex flex-column">
+                                <div class="d-flex align-items-center gap-1">
+                                    <span class="fw-bold fs-4">Allan</span>
+                                    <span class="text-secondary">@playfulallen</span>
+                                </div>
+                                <p>The food has unique taste and flavor that I love.
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                  </div>
+
+                  <div class="carousel-item">
+                    <div class="border border-dark p-5 rounded w-75 mx-auto">
+                        <div class="d-flex flex-column flex-lg-row gap-3 align-items-start">
+                            <div class="fs-1 border border-dark p-3 py-3 rounded-circle">
+                            👧
+                            </div>
+                            <div class="d-flex flex-column">
+                                <div class="d-flex align-items-center gap-1">
+                                    <span class="fw-bold fs-4">Amanda</span>
+                                    <span class="text-secondary">@amanda_gratitude</span>
+                                </div>
+                                <p>The food is excellently prepared and an absolute winner!
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                  </div>
+
+                </div>
+                <button class="carousel-control-prev" type="button" data-bs-target="#carouselExample" data-bs-slide="prev">
+                  <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                  <span class="visually-hidden">Previous</span>
+                </button>
+                <button class="carousel-control-next" type="button" data-bs-target="#carouselExample" data-bs-slide="next">
+                  <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                  <span class="visually-hidden">Next</span>
+                </button>
+              </div>
+        </div>
+    </section>
+    <!-- Testimoni End -->
+
+
+    <!-- FAQ Start -->
+    <section id="faq">
+        <div class="container">
+            <div class="title text-center mb-4 mt-5">
+                <h1 class="fw-bold">Frequently Asked Questions</h1>
+                <p class="text-secondary">
+                  some frequently asked questions by customers
+                </p>
+            </div>
+            <div class="accordion" id="accordionExample">
+                <div class="accordion-item">
+                  <h2 class="accordion-header">
+                    <button class="accordion-button collapsed fw-bold" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+                      What time does this restaurant open and close?
+                    </button>
+                  </h2>
+                  <div id="collapseOne" class="accordion-collapse collapse" data-bs-parent="#accordionExample">
+                    <div class="accordion-body">
+                      This restaurant opens at 08.00 AM and closes at 11.00 PM every Monday to Friday. On weekends, the restaurant opens at 10:00 AM and closes at 11:30 PM.
+                    </div>
+                  </div>
+                </div>
+                <div class="accordion-item">
+                  <h2 class="accordion-header">
+                    <button class="accordion-button collapsed fw-bold" type="button" data-bs-toggle="collapse" data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+                      What's the best seller at this restaurant?
+                    </button>
+                  </h2>
+                  <div id="collapseTwo" class="accordion-collapse collapse" data-bs-parent="#accordionExample">
+                    <div class="accordion-body">
+                      for the best seller menu in this restaurant are <strong>mac and cheese and burrito</strong>
+                    </div>
+                  </div>
+                </div>
+                <div class="accordion-item">
+                  <h2 class="accordion-header">
+                    <button class="accordion-button collapsed fw-bold" type="button" data-bs-toggle="collapse" data-bs-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+                      What if we want to make a reservation at a restaurant?
+                    </button>
+                  </h2>
+                  <div id="collapseThree" class="accordion-collapse collapse" data-bs-parent="#accordionExample">
+                    <div class="accordion-body">
+                      If you want to make a reservation, the conditions are for what date, what time, how many people, and for what menu you want to order.
+                    </div>
+                  </div>
+                </div>
+              </div>
+        </div>
+    </section>
+    <!-- FAQ End -->
+
+
+    <!-- Contact Start -->
+    <section id="contact">
+        <div class="container">
+            <div class="title text-center mb-4 mt-5">
+                <h1 class="fw-bold">Contact Us</h1>
+                <p class="text-secondary">
+                  let us know about your message and impressions at our restaurant
+                </p>
+            </div>
+            <form>
+                <div class="row">
+                    <div class="col-12 col-lg-6">
+                        <div class="mb-3">
+                            <label for="exampleInputEmail1" class="form-label">Email address</label>
+                            <input type="email" class="form-control p-3" id="exampleInputEmail1"
+                            placeholder="youremail@email.com"/>
+                          </div>
+                    </div>
+                    <div class="col-12 col-lg-6">
+                        <div class="mb-3">
+                            <label for="exampleInputEmail1" class="form-label">Phone Number</label>
+                            <input type="text" class="form-control p-3"
+                            placeholder="example : 087584932789"/>
+                        </div>
+                    
+                    </div>
+                    <div class="col-12">
+                        <div class="mb-3">
+                            <label for="exampleInputEmail1" class="form-label">Your Message</label>
+                            <textarea placeholder="Your message..." class="form-control p-3 "></textarea>
+                        </div>
+                    </div>
+                </div>
+                <button type="submit" class="btn btn-outline-dark">Submit</button>
+              </form>
+        </div>
+    </section>
+    <!-- Contact End -->
+
+
+    <!-- Footer Start -->
+    <footer class="p-4 bg-light text-center mt-5">
+        Copyright © 2023 ELATION. All Rights Reserved
+    </footer>
+    <!-- Footer End -->
+
+    <!-- JS Bootstrap -->
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL"
+      crossorigin="anonymous"
+    ></script>
+  </body>
+</html>
